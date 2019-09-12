@@ -3,25 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2534A01422AEC42400EFFAEC /* DeviceAddedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2534A01322AEC42400EFFAEC /* DeviceAddedViewController.swift */; };
+		2534A01622AEC71500EFFAEC /* DeviceAddLandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2534A01522AEC71500EFFAEC /* DeviceAddLandingViewController.swift */; };
+		2534A01822AEC72800EFFAEC /* DeviceScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2534A01722AEC72800EFFAEC /* DeviceScanViewController.swift */; };
+		2534A01A22AEC9D000EFFAEC /* TrackedDevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2534A01922AEC9D000EFFAEC /* TrackedDevicesViewController.swift */; };
 		256AE20D22988B2500F04BD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256AE20C22988B2500F04BD9 /* AppDelegate.swift */; };
-		256AE20F22988B2500F04BD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256AE20E22988B2500F04BD9 /* ViewController.swift */; };
+		256AE20F22988B2500F04BD9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256AE20E22988B2500F04BD9 /* DetailViewController.swift */; };
 		256AE21222988B2500F04BD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256AE21022988B2500F04BD9 /* Main.storyboard */; };
 		256AE21422988B3A00F04BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256AE21322988B3A00F04BD9 /* Assets.xcassets */; };
 		256AE21722988B3A00F04BD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256AE21522988B3A00F04BD9 /* LaunchScreen.storyboard */; };
+		256AE21F2298D57600F04BD9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256AE21E2298D57600F04BD9 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2534A01322AEC42400EFFAEC /* DeviceAddedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceAddedViewController.swift; sourceTree = "<group>"; };
+		2534A01522AEC71500EFFAEC /* DeviceAddLandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceAddLandingViewController.swift; sourceTree = "<group>"; };
+		2534A01722AEC72800EFFAEC /* DeviceScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceScanViewController.swift; sourceTree = "<group>"; };
+		2534A01922AEC9D000EFFAEC /* TrackedDevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedDevicesViewController.swift; sourceTree = "<group>"; };
+		2534A01B22AEE72A00EFFAEC /* Don't Lose Me.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Don't Lose Me.entitlements"; sourceTree = "<group>"; };
 		256AE20922988B2500F04BD9 /* Don't Lose Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Don't Lose Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		256AE20C22988B2500F04BD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		256AE20E22988B2500F04BD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		256AE20E22988B2500F04BD9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		256AE21122988B2500F04BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		256AE21322988B3A00F04BD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		256AE21622988B3A00F04BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		256AE21822988B3A00F04BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		256AE21E2298D57600F04BD9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +65,44 @@
 		256AE20B22988B2500F04BD9 /* Don't Lose Me */ = {
 			isa = PBXGroup;
 			children = (
+				2587A6AF23259B8700E47C1E /* Controllers */,
+				2587A6AE23259B7C00E47C1E /* Models */,
+				2534A01B22AEE72A00EFFAEC /* Don't Lose Me.entitlements */,
 				256AE20C22988B2500F04BD9 /* AppDelegate.swift */,
-				256AE20E22988B2500F04BD9 /* ViewController.swift */,
-				256AE21022988B2500F04BD9 /* Main.storyboard */,
+				2587A6AD23259B7000E47C1E /* Views */,
 				256AE21322988B3A00F04BD9 /* Assets.xcassets */,
-				256AE21522988B3A00F04BD9 /* LaunchScreen.storyboard */,
 				256AE21822988B3A00F04BD9 /* Info.plist */,
 			);
 			path = "Don't Lose Me";
+			sourceTree = "<group>";
+		};
+		2587A6AD23259B7000E47C1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				256AE21022988B2500F04BD9 /* Main.storyboard */,
+				256AE21522988B3A00F04BD9 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2587A6AE23259B7C00E47C1E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2587A6AF23259B8700E47C1E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				256AE20E22988B2500F04BD9 /* DetailViewController.swift */,
+				256AE21E2298D57600F04BD9 /* MainViewController.swift */,
+				2534A01922AEC9D000EFFAEC /* TrackedDevicesViewController.swift */,
+				2534A01722AEC72800EFFAEC /* DeviceScanViewController.swift */,
+				2534A01522AEC71500EFFAEC /* DeviceAddLandingViewController.swift */,
+				2534A01322AEC42400EFFAEC /* DeviceAddedViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,7 +141,7 @@
 				};
 			};
 			buildConfigurationList = 256AE20422988B2400F04BD9 /* Build configuration list for PBXProject "Don't Lose Me" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -135,8 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				256AE20F22988B2500F04BD9 /* ViewController.swift in Sources */,
+				256AE20F22988B2500F04BD9 /* DetailViewController.swift in Sources */,
+				256AE21F2298D57600F04BD9 /* MainViewController.swift in Sources */,
 				256AE20D22988B2500F04BD9 /* AppDelegate.swift in Sources */,
+				2534A01622AEC71500EFFAEC /* DeviceAddLandingViewController.swift in Sources */,
+				2534A01422AEC42400EFFAEC /* DeviceAddedViewController.swift in Sources */,
+				2534A01A22AEC9D000EFFAEC /* TrackedDevicesViewController.swift in Sources */,
+				2534A01822AEC72800EFFAEC /* DeviceScanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +328,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Don't Lose Me/Don't Lose Me.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = 8VU5ULQ45F;
 				INFOPLIST_FILE = "Don't Lose Me/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -291,8 +340,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alanyan.Don-t-Lose-Me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,7 +351,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Don't Lose Me/Don't Lose Me.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_UIKITFORMAC_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = 8VU5ULQ45F;
 				INFOPLIST_FILE = "Don't Lose Me/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,8 +363,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alanyan.Don-t-Lose-Me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_UIKITFORMAC = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
